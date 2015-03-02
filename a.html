@@ -1,0 +1,18 @@
+<html>
+
+	<script type="text/javascript">
+
+		var Person = function() {
+			console.log("person object created")
+		}
+
+		Person.prototype.sayHello = function(myname) {
+			console.log("This is say hello " + myname)
+		}
+
+		var person1 = new Person();
+		person1.sayHello("pankaj 1");
+	</script>
+    <body>
+    </body>
+</html>
